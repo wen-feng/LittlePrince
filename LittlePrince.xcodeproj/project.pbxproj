@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402C2CED1CA04F750004B468 /* Lava.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 402C2CEC1CA04F750004B468 /* Lava.mp3 */; };
 		40AD31661C9EA1B8003A2A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD31651C9EA1B8003A2A98 /* AppDelegate.swift */; };
 		40AD31681C9EA1B8003A2A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD31671C9EA1B8003A2A98 /* ViewController.swift */; };
 		40AD31781C9EA21B003A2A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD31771C9EA21B003A2A98 /* Main.storyboard */; };
 		40AD317A1C9EA259003A2A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AD31791C9EA259003A2A98 /* Assets.xcassets */; };
 		40AD317C1C9EA288003A2A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD317B1C9EA288003A2A98 /* LaunchScreen.storyboard */; };
 		40AD317E1C9EA2B7003A2A98 /* olaf_off-front.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD317D1C9EA2B7003A2A98 /* olaf_off-front.png */; };
-		40AD31801C9EA35C003A2A98 /* Lava.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40AD317F1C9EA35C003A2A98 /* Lava.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402C2CEC1CA04F750004B468 /* Lava.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lava.mp3; sourceTree = "<group>"; };
 		40AD31621C9EA1B8003A2A98 /* LittlePrince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePrince.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AD31651C9EA1B8003A2A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40AD31671C9EA1B8003A2A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		40AD31791C9EA259003A2A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40AD317B1C9EA288003A2A98 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40AD317D1C9EA2B7003A2A98 /* olaf_off-front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "olaf_off-front.png"; sourceTree = "<group>"; };
-		40AD317F1C9EA35C003A2A98 /* Lava.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lava.mp3; path = ../../../Lava.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		40AD31641C9EA1B8003A2A98 /* LittlePrince */ = {
 			isa = PBXGroup;
 			children = (
-				40AD317F1C9EA35C003A2A98 /* Lava.mp3 */,
+				402C2CEC1CA04F750004B468 /* Lava.mp3 */,
 				40AD317D1C9EA2B7003A2A98 /* olaf_off-front.png */,
 				40AD317B1C9EA288003A2A98 /* LaunchScreen.storyboard */,
 				40AD31791C9EA259003A2A98 /* Assets.xcassets */,
@@ -130,7 +130,7 @@
 			files = (
 				40AD317C1C9EA288003A2A98 /* LaunchScreen.storyboard in Resources */,
 				40AD31781C9EA21B003A2A98 /* Main.storyboard in Resources */,
-				40AD31801C9EA35C003A2A98 /* Lava.mp3 in Resources */,
+				402C2CED1CA04F750004B468 /* Lava.mp3 in Resources */,
 				40AD317A1C9EA259003A2A98 /* Assets.xcassets in Resources */,
 				40AD317E1C9EA2B7003A2A98 /* olaf_off-front.png in Resources */,
 			);
@@ -273,6 +273,7 @@
 				40AD31761C9EA1B8003A2A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
